@@ -3,8 +3,8 @@ Introduction
 This project's aim is to help with the translation of an Android app.  
 It will extract the strings.xml file of an app to a nice readable xlsx file, which can be sent to translators to work on.  
 
-If, after the translators will finish translating the file, you also interested in converting the translated file back to strings.xml file,
-use the complementary library. 
+If, after the translators will finish translating the file, you also interested in converting the translated file back to a strings.xml file,
+use the complementary library ([os_android_strings_importer-py](https://github.com/osfunapps/os_android_strings_importer-py)) 
 
 
 ## Installation
@@ -50,7 +50,11 @@ And you will get the output:
 
 ![Alt text](os_android_strings_extractor/example_img.png?raw=true "Title")
 (notice the worksheets at the bottom -> 'French', 'German', 'Hindi')
+
     
+## Links
+[os_android_strings_importer-py](https://github.com/osfunapps/os_android_strings_importer-py) -> Will import an xlsx file (made by os_android_strings_extractor) and convert it to an Android strings.xml file, after translation.
+
 
 ## Licence
 MIT
