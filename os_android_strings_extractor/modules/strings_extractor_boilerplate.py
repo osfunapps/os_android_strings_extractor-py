@@ -1,5 +1,5 @@
-import os_tools.XmlFileHandler as xh
-import os_tools.FileHandler as fh
+import os_tools.xml_file_handler as xh
+import os_tools.file_handler as fh
 
 
 ##################################################################################

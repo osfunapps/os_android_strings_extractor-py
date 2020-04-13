@@ -2,9 +2,9 @@ from distutils.core import setup
 
 setup(
     name='os_android_strings_extractor',
-    packages=['os_android_strings_extractor'],
+    packages=['os_android_strings_extractor', 'os_android_strings_extractor.modules'],
     package_data={'os_android_strings_extractor': ['example_img.png']},
-    version='1.0',  # Start with a small number and increase it with every change you make
+    version='1.1',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='This module will extract an Android strings.xml file to a nice excel (xlsx) file, in order to prepare it for translation',  # Give a short description about your library
     author='Oz Shabat',  # Type in your name

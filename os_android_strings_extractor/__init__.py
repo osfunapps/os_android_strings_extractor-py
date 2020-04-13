@@ -1,1 +1,1 @@
-import os_android_strings_extractor.StringsExtractor
+import os_android_strings_extractor.strings_extractor

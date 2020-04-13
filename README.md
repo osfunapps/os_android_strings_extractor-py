@@ -39,7 +39,7 @@ Say you have this *strings.xml* file:
     
 Convert it to a readable excel file:
 
-    import os_android_strings_extractor.StringsExtractor as se
+    import os_android_strings_extractor.strings_extractor as se
     
     se.run('/path/to/android/project',
            '/output/path',

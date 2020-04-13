@@ -1,4 +1,4 @@
-import os_android_strings_extractor.StringsExtractorBp as bp
+import os_android_strings_extractor.modules.strings_extractor_boilerplate as bp
 
 
 ##################################################################################
